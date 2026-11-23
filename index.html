@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estamos Contratando | Vaga de Telemarketing</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #252b42;
+        }
+
+        header {
+            background: #142b55;
+            color: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 24px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #142b55, #2875d8);
+            color: white;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #ffb52e;
+            color: #142b55;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background: #ffc957;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 55px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #142b55;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .descricao {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 250px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+        }
+
+        .card h3 {
+            color: #2875d8;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .vaga {
+            background: white;
+        }
+
+        .vaga ul {
+            display: inline-block;
+            text-align: left;
+            line-height: 2;
+            margin-top: 15px;
+        }
+
+        .inscricao {
+            background: #e8effb;
+        }
+
+        footer {
+            background: #142b55;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            section {
+                padding: 40px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>OPORTUNIDADE DE EMPREGO</h2>
+        <span>Estamos Contratando!</span>
+    </header>
+
+    <div class="hero">
+        <h1>Sua Voz Pode Fazer a Diferença!</h1>
+
+        <p>
+            Venha fazer parte da nossa equipe!
+            Temos uma oportunidade para você.
+        </p>
+
+        <a href="#candidatura" class="botao">
+            QUERO ME CANDIDATAR
+        </a>
+    </div>
+
+    <section>
+        <h2>Sobre a Oportunidade</h2>
+
+        <p class="descricao">
+            Estamos em busca de pessoas comunicativas, dedicadas
+            e com vontade de crescer profissionalmente para fazer
+            parte da nossa equipe de Telemarketing.
+
+            Se você gosta de conversar, trabalhar em equipe e
+            enfrentar novos desafios, essa oportunidade pode ser sua!
+        </p>
+    </section>
+
+    <section class="vaga">
+        <h2>Informações da Vaga</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📞 Cargo</h3>
+                <p>Operador(a) de Telemarketing</p>
+            </div>
+
+            <div class="card">
+                <h3>💼 Área</h3>
+                <p>Atendimento ao Cliente</p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Oportunidade</h3>
+                <p>Desenvolvimento profissional e crescimento.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Requisitos</h2>
+
+        <ul>
+            <li>Boa comunicação;</li>
+            <li>Vontade de aprender;</li>
+            <li>Responsabilidade e comprometimento;</li>
+            <li>Facilidade para trabalhar em equipe;</li>
+            <li>Conhecimentos básicos em informática.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>O Que Oferecemos?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📈 Crescimento</h3>
+                <p>Oportunidade de desenvolvimento profissional.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤝 Equipe</h3>
+                <p>Ambiente de trabalho colaborativo.</p>
+            </div>
+
+            <div class="card">
+                <h3>⭐ Experiência</h3>
+                <p>Aprendizado e novos desafios.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="inscricao" id="candidatura">
+        <h2>Não Perca Essa Oportunidade!</h2>
+
+        <p class="descricao">
+            Dê o primeiro passo para uma nova jornada profissional.
+            Estamos esperando por você!
+        </p>
+
+        <br>
+
+        <!-- SUBSTITUA PELO LINK DE CANDIDATURA DA EMPRESA -->
+        <a href="mailto:rh@suaempresa.com"
+           class="botao">
+            ENVIAR CURRÍCULO
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 - Oportunidade de Emprego</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
